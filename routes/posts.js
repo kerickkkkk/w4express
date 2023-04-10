@@ -4,8 +4,6 @@ const postsController = require('../controllers/postsController')
 
 /* GET users listing. */
 router.get('/posts', postsController.getPosts);
-
-
 router.post('/post', postsController.postPosts);
 
 module.exports = router;
